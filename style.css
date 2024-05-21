@@ -120,7 +120,7 @@ article .content-section-left {
     flex-direction: column;
 }
 
-article .content-section-left>.img-logo-section {
+article .content-section-left > .img-logo-section {
     max-width: 250px;
     width: 100%;
     margin-bottom: 1rem;
@@ -136,7 +136,7 @@ article .content-section-left p {
     margin-bottom: 1rem;
 }
 
-article .content-section-left>#btn-contact {
+article .content-section-left > #btn-contact {
     background-color: #d40000;
     border: none;
     border-radius: 5px;
@@ -148,12 +148,12 @@ article .content-section-left>#btn-contact {
     cursor: pointer;
 }
 
-article .content-section-left>.btn-contact:hover {
+article .content-section-left > #btn-contact:hover {
     background-color: #ac0000;
     box-shadow: 2px 2px 3px #000;
 }
 
-article .content-section-left>form {
+article .content-section-left > form {
     position: fixed;
     top: 50%;
     left: -165px;
@@ -173,7 +173,7 @@ article .content-section-left>form {
     z-index: 2;
 }
 
-article .content-section-left form>input {
+article .content-section-left form > input {
     border: none;
     border-radius: 3px;
     width: calc(100% - 4rem);
@@ -181,7 +181,7 @@ article .content-section-left form>input {
     padding-left: .5rem;
 }
 
-article .content-section-left form>textarea {
+article .content-section-left form > textarea {
     border: none;
     border-radius: 3px;
     max-width: calc(100% - 4rem);
@@ -189,7 +189,7 @@ article .content-section-left form>textarea {
     padding-left: .5rem;
 }
 
-article .content-section-left form>button {
+article .content-section-left form > button {
     background-color: #d40000;
     border: none;
     border-radius: 5px;
@@ -202,7 +202,7 @@ article .content-section-left form>button {
     cursor: pointer;
 }
 
-article .content-section-left form>button:hover {
+article .content-section-left form > button:hover {
     background-color: #ac0000;
 }
 

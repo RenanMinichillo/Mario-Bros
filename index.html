@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./icon/favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./icon/favicon-16x16.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./icon/apple-touch-icon.png" type="image/x-icon">
     <script defer src="./script.js"></script>
     <title>Projeto Mario Bros</title>
 </head>
@@ -48,13 +45,14 @@
                 </p>
                 <button id="btn-contact">Entre em Contato</button>
 
-                <form id="form" method="get">
+                <form id="form" action="https://formcarry.com/s/NlhyilOXDPf" method="POST"
+                    enctype="multipart/form-data">
                     <label for="name">Nome:</label>
-                    <input id="name" type="text" placeholder="Nome">
+                    <input id="name" name="name" type="text" placeholder="Nome">
                     <label for="email">E-mail:</label>
-                    <input id="email" type="email" placeholder="Email">
+                    <input id="email" name="email" type="email" placeholder="Email">
                     <label for="message">Assunto:</label>
-                    <textarea id="message" placeholder="Digite aqui..."></textarea>
+                    <textarea id="message" name="message" placeholder="Digite aqui..."></textarea>
                     <button id="btn-form" type="submit">Enviar</button>
                 </form>
             </section>
@@ -64,7 +62,9 @@
             </section>
         </article>
 
-        <img class="whatsapp" src="./assets/img/whatsapp.png" alt="whatsapp">
+        <a href="https://wa.me/5511912344321?text=Ol%C3%A1%2C+preciso+da+ajuda+dos+Irm%C3%A3os+Mario">
+            <img class="whatsapp" src="./assets/img/whatsapp.png" alt="whatsapp">
+        </a>
     </main>
     <footer>
         <p>
